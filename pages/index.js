@@ -40,7 +40,9 @@ export default function Home() {
       <Image src ={"/DJ.jpg"}         
           alt="Picture of the author"
           width={500}
-          height={500}/>
+          height={500}
+          className={styles.pic}
+          />
           </div>
         <Player />
         <a href={'mix.mp3'} download="DJHIC/DJFelon Free Style Mix Vol.1">  
