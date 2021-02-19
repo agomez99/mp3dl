@@ -10,6 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css"
 import { Button } from "shards-react";
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -46,8 +47,8 @@ export default function Home() {
           </div>
         <Player />
 
-      <a href='/mix.mp3' download><Button theme="success"  size="lg">DOWNLOAD MP3</Button>
-</a>
+      <a   href={'./mix.mp3'} download="mix.mp3">ssssss
+      </a>
 
       </main>
 
