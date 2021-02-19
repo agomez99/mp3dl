@@ -43,7 +43,7 @@ export default function Home() {
           height={500}/>
           </div>
         <Player />
-        <a href={'https://www.mboxdrive.com/mix.mp3'} download="DJHIC/DJFelon Free Style Mix Vol.1">  
+        <a href={'mix.mp3'} download="DJHIC/DJFelon Free Style Mix Vol.1">  
       <Button theme="success"  size="lg">DOWNLOAD MP3</Button>
       </a>
       </main>
