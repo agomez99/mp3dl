@@ -45,8 +45,10 @@ export default function Home() {
           />
           </div>
         <Player />
-        <a href={'mix.mp3'} download="DJHIC/DJFelon Free Style Mix Vol.1">  DOWNLOAD
-      </a>
+
+      <a href='/mix.mp3' download><Button theme="success"  size="lg">DOWNLOAD MP3</Button>
+</a>
+
       </main>
 
       <footer className={styles.footer}>
