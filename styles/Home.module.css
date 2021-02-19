@@ -1,16 +1,15 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
+
 .imgcont{
   padding-bottom: 20px;
 }
 .imgcont2{
   padding-bottom: 20px;
+  display:inline;
+}
+.imgcont3{
+  padding-top: 35px;
+
+
 }
 .pic{
   border-radius: 5%;
