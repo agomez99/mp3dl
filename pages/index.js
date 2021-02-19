@@ -14,17 +14,19 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>DJHIC/DJFelon Free Style Mix Vol.1</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
+      <div  className={styles.imgcont}>
       <Image src ={"/DJ.jpg"}         
           alt="Picture of the author"
           width={500}
           height={500}/>
+          </div>
         <Player />
-        <a href={'https://firebasestorage.googleapis.com/v0/b/nextjs-firebase-blog-4fe3a.appspot.com/o/mix.mp3?alt=media&token=d1748e8f-673e-4daf-87d7-1ad2c5fb9722'} download="DJHIC/DJFelon Free Style Mix Vol.1">  
+        <a href={'https://www.mboxdrive.com/mix.mp3'} download="DJHIC/DJFelon Free Style Mix Vol.1">  
       <Button theme="success"  size="lg">DOWNLOAD MP3</Button>
       </a>
       </main>
