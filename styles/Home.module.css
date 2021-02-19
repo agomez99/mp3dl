@@ -9,9 +9,16 @@
 .imgcont{
   padding-bottom: 20px;
 }
+.imgcont2{
+  padding-bottom: 20px;
+}
 .pic{
   border-radius: 5%;
 
+}
+.pic2{
+  border-radius: 5%;
+  margin-bottom:5%;
 }
 .main {
   padding: 5rem 1rem;

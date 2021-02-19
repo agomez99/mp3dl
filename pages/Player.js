@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import ReactAudioPlayer from 'react-audio-player';
+import ReactSoundcloud from 'react-soundcloud-embed';
+
 
 export class Player extends Component {
     render() {
         return (
             <div >
                 <ReactAudioPlayer
-                    src="/mix.mp3"
+                    src=""
                     controls
                 />
             </div>

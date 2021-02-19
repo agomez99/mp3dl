@@ -46,9 +46,14 @@ export default function Home() {
           className={styles.pic}
           />
           </div>
-        <Player />
-
-      <a href='./mix.mp3' download>
+          <div  className={styles.imgcont2}>
+          <Image src ={"/Q.png"}         
+          alt="Picture of the author"
+          width={120}
+          height={120}/>
+          </div>
+        {/* <Player /> */}
+      <a href='http://sendanywhe.re/5M1Q3XZ5' download>
       <Button theme="success"  size="lg">DOWNLOAD MP3</Button>
   </a>
 
