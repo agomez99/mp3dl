@@ -16,6 +16,21 @@ export default function Home() {
       <Head>
         <title>DJHIC/DJFelon Free Style Mix Vol.1</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:url" content="https://freestylemix.vercel.app/"/>
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Free Style Mix Vol.1"/>
+        <meta property="og:description"
+          content="Free Style Mix Vol.1"
+        />
+        <meta property="og:image" content="https://github.com/agomez99/mp3dl/blob/main/public/DJ.jpg"/>
+      
+        <meta property="fb:app_id" content="134816985125175" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Free Style Mix Vol.1"/>
+        <meta name="twitter:description" content="Free Style Mix Vol.1"/>
+        <meta name="twitter:image" content="https://github.com/agomez99/mp3dl/blob/main/public/DJ.jpg"/>
+        <meta name="twitter:card" content="summary_large_image"/>
       </Head>
 
       <main className={styles.main}>
