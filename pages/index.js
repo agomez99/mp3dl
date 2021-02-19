@@ -9,6 +9,7 @@ import Image from 'next/image';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css"
 import { Button } from "shards-react";
+import GoogleAnalytics from "./googleAnalytics.js"
 
 
 export default function Home() {
@@ -35,7 +36,7 @@ export default function Home() {
         <meta name="twitter:image" content="https://i.ibb.co/2KbHC1W/DJ.jpg"/>
         <meta name="twitter:card" content="summary_large_image"/>
       </Head>
-
+      <GoogleAnalytics />
       <main className={styles.main}>
       <div  className={styles.imgcont}>
       <Image src ={"/DJ.jpg"}         
